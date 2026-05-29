@@ -2,7 +2,7 @@
 
 A stunning, professional portfolio website built with **React**, **Tailwind CSS**, and **Three.js**. Designed for Computer Science students and Software Developers looking to showcase their technical expertise.
 
-
+[Live](https://portfolio.asmitlabs.me)
 ---
 
 ## ✨ Features
@@ -29,7 +29,7 @@ A stunning, professional portfolio website built with **React**, **Tailwind CSS*
 ### 1. E-Portfolio Website
 A modern portfolio website built with React, Tailwind CSS, and Three.js for 3D elements.
 - **Tech Stack:** React, Tailwind, Vite, Three.js, Framer Motion
-- [GitHub Repo](https://github.com/kau-shal2424/my-portfolio) | [Live Demo](https://kaushals-portfolio2424.vercel.app/)
+- [GitHub Repo](https://github.com/AsmitBhandari/my-portfolio) | [Live Demo](https://portfolio.asmitlabs.me)
 
 ### 2. E-KART
 A full-stack e-commerce web application with user shopping features and an admin analytics dashboard.
