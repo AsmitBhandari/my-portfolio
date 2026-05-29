@@ -2,7 +2,6 @@
 
 A stunning, professional portfolio website built with **React**, **Tailwind CSS**, and **Three.js**. Designed for Computer Science students and Software Developers looking to showcase their technical expertise.
 
-**Live Demo:** [kaushals-portfolio2424.vercel.app](https://kaushals-portfolio2424.vercel.app/)
 
 ---
 
@@ -115,4 +114,4 @@ my-portfolio/
 this project is personal portfolio website of Asmit Bhandari.
 
 
-**Made with ❤️ by [Asmit Bhandari](https://github.com/AsmitBhandari)**
+**Made by [Asmit Bhandari](https://github.com/AsmitBhandari)**
