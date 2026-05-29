@@ -1,0 +1,58 @@
+import React from 'react';
+
+const Experience = () => {
+    const experiences = [
+        {
+            id: 1,
+            role: 'Machine Learning Intern',
+            company: 'Alpha Innovation Pvt. Ltd.',
+            duration: 'October 2025 - January 2026',
+            description: 'Completed an online internship in Machine Learning, gaining hands-on experience in supervised and unsupervised learning techniques, data preprocessing, model evaluation, and deployment of machine learning models'
+        },
+        {
+            id: 2,
+            role: 'Freelance Web Developer',
+            company: 'Self-Employed',
+            duration: 'aug 2025 - sept 2025',
+            description: 'Developed a website for a business client from scratch. live website:  "https://bhuyogmantra.com"'
+        },
+        {
+            id: 3,
+            role: 'Computer Science Student',
+            company: 'Graphic Era Hill University',
+            duration: '2023 - 2027',
+            description: 'Pursuing a Bachelor\'s degree in Computer Science with specialization in AI & ML, coursework includes Data Structures, Algorithms, Web Development, and Database Management.'
+        }
+
+    ];
+
+    return (
+        <div id="experience" className="w-full bg-transparent text-white py-20">
+            <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
+                <div className="pb-8">
+                    <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+                        Experience
+                    </p>
+                </div>
+
+                <div className="flex flex-col gap-8 mt-10">
+                    {experiences.map(({ id, role, company, duration, description }) => (
+                        <div key={id} className="flex flex-col md:flex-row gap-4 border-l-4 border-accent pl-6 relative">
+                            <div className="absolute -left-[11px] top-0 w-5 h-5 rounded-full bg-accent"></div>
+                            <div className="w-full md:w-1/4">
+                                <h3 className="font-bold text-lg">{company}</h3>
+                                <p className="text-gray-400 text-sm">{duration}</p>
+                            </div>
+                            <div className="w-full md:w-3/4">
+                                <h4 className="text-xl font-semibold text-accent">{role}</h4>
+                                <p className="text-gray-300 mt-2">{description}</p>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Experience;
