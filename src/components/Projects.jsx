@@ -17,7 +17,7 @@ const Projects = () => {
             tech: ['React', 'Tailwind', 'VITE', 'Three.js', 'Framer Motion'],
             src: '/e-portfolio.png',
             github: 'https://github.com/AsmitBhandari/my-portfolio',
-            demo: 'https://asmitbhandaris-portfolio.vercel.app/',
+            demo: 'https://portfolio.asmitlabs.me',
         },
         {
             id: 2,
